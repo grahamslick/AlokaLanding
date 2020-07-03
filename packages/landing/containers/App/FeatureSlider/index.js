@@ -7,59 +7,60 @@ import Heading from 'common/src/components/Heading';
 import 'react-image-gallery/styles/css/image-gallery.css';
 import Container from 'common/src/components/UI/Container';
 import FeatureSliderWrapper from './featureSlider.style';
-import Image1 from 'common/src/assets/image/app/slide-2.png';
-import Image2 from 'common/src/assets/image/app/slide-1.png';
+import Image1 from 'common/src/assets/image/app/slide-1.png';
+import Image2 from 'common/src/assets/image/app/slide-2.png';
 import Image3 from 'common/src/assets/image/app/slide-3.png';
 import Image4 from 'common/src/assets/image/app/slide-4.png';
 import Image5 from 'common/src/assets/image/app/slide-5.png';
-import Thumb1 from 'common/src/assets/image/app/6.svg';
-import Thumb2 from 'common/src/assets/image/app/1.svg';
-import Thumb3 from 'common/src/assets/image/app/2.svg';
-import Thumb4 from 'common/src/assets/image/app/3.svg';
-import Thumb5 from 'common/src/assets/image/app/4.svg';
-import Thumb6 from 'common/src/assets/image/app/5.svg';
+import Image6 from 'common/src/assets/image/app/slide-6.png';
+import Thumb1 from 'common/src/assets/image/app/1.svg';
+import Thumb2 from 'common/src/assets/image/app/2.svg';
+import Thumb3 from 'common/src/assets/image/app/3.svg';
+import Thumb4 from 'common/src/assets/image/app/4.svg';
+import Thumb5 from 'common/src/assets/image/app/5.svg';
+import Thumb6 from 'common/src/assets/image/app/6.svg';
 
 // import DomainSection from '../container/Hosting/Domain';
 const images = [
   {
     original: `${Image1}`,
     thumbnail: `${Thumb1}`,
-    thumbnailLabel: 'Super Performance',
+    thumbnailLabel: 'Follow Your Progress',
     originalAlt: 'slide one',
     thumbnailAlt: 'thumb one',
   },
   {
     original: `${Image2}`,
     thumbnail: `${Thumb2}`,
-    thumbnailLabel: 'Search optimization',
+    thumbnailLabel: 'Video and Audio',
     originalAlt: 'slide two',
     thumbnailAlt: 'thumb two',
   },
   {
     original: `${Image3}`,
     thumbnail: `${Thumb3}`,
-    thumbnailLabel: 'Customer Support',
+    thumbnailLabel: 'Personal Journaling',
     originalAlt: 'slide three',
     thumbnailAlt: 'thumb three',
   },
   {
-    original: `${Image2}`,
+    original: `${Image4}`,
     thumbnail: `${Thumb4}`,
-    thumbnailLabel: '100% response time',
+    thumbnailLabel: 'Meet People',
     originalAlt: 'slide four',
     thumbnailAlt: 'thumb four',
   },
   {
-    original: `${Image4}`,
+    original: `${Image5}`,
     thumbnail: `${Thumb5}`,
-    thumbnailLabel: 'Maintaining Milestones',
+    thumbnailLabel: 'Explore Selfcare',
     originalAlt: 'slide five',
     thumbnailAlt: 'thumb five',
   },
   {
-    original: `${Image5}`,
+    original: `${Image6}`,
     thumbnail: `${Thumb6}`,
-    thumbnailLabel: 'Organised Code',
+    thumbnailLabel: 'Level Unlocks',
     originalAlt: 'slide six',
     thumbnailAlt: 'thumb six',
   },
@@ -105,24 +106,24 @@ FeatureSlider.propTypes = {
 FeatureSlider.defaultProps = {
   sectionHeader: {},
   sectionSubTitle: {
-    content: 'WHY CHOOSE US',
+    content: 'THE APP',
     as: 'span',
     display: 'block',
     textAlign: 'center',
     fontSize: '14px',
     letterSpacing: '0.13em',
     fontWeight: '700',
-    color: '#1a73e8',
+    color: '#DB9A5D',
     mb: '10px',
   },
   // section title default style
   sectionTitle: {
-    content: 'Key Features of Our App',
+    content: 'Designed to Help You Find You',
     textAlign: 'center',
-    fontSize: ['20px', '24px', '24px', '24px', '30px'],
-    fontWeight: '400',
+    fontSize: ['20px', '24px', '30px', '32px', '42px'],
+    fontWeight: '300',
     color: '#0f2137',
-    letterSpacing: '-0.025em',
+    letterSpacing: '-0.01em',
     mb: '0',
   },
 };
