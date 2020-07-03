@@ -2,23 +2,24 @@ const data = {
   features: [
     {
       id: 1,
-      icon: 'flaticon-atom',
-      title: 'App Development',
+      icon: 'flaticon-trophy',
+      title: 'The Program',
       description:
-        'If you have to develop a mobile app, this is the most appropriate time. ',
+        ' We have created a system conatining a variety of diciplines you can explore, experience journaling, and a creative unlock system designed to engage and motivate. ',
     },
     {
       id: 2,
-      icon: 'flaticon-trophy',
-      title: 'UI/UX Design',
+      icon: 'flaticon-conversation',
+      title: 'The Community',
       description:
-        'We provide the best UI/UX Design by following the latest trends of the market.',
+        ' You have the optional ability to connect, share, build relationships, guide and grow with a community of like-minded individuals on the app and in real-life. ',
     },
     {
       id: 3,
-      icon: 'flaticon-conversation',
-      title: 'Wireframing Task',
-      description: ' We respect our customer opinions and deals with them. ',
+      icon: 'flaticon-atom',
+      title: 'The Events',
+      description:
+        ' We respect our customer opin Real-life and online events bring you deeper and tangible experiences, our Intro to Everything event is designed to demystify multiple modalities in a relaxed setting. ',
     },
   ],
 };
