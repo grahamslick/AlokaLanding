@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import Mail from 'common/src/assets/image/app/mail.svg';
+import Arrow from 'common/src/assets/image/app/arrow.svg';
 
 export const DiscountWrapper = styled.div`
   text-align: left;
@@ -47,11 +48,21 @@ export const EmailInputWrapper = styled.div`
     top: 46px;
     z-index: 9;
   }
+  &::after {
+    content: url(${Arrow});
+    display: block;
+    position: relative;
+    width: 16px;
+    left: 350px;
+    top: -76px;
+    z-index: 9;
+  }
   input {
     border-radius: 5px;
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 7px 25px 0px rgba(22, 53, 76, 0.08) !important;
-    border: 0 !important;
+    border: 1 !important;
+    border-color: #ffffff;
     margin-bottom: 30px;
     height: 60px;
     padding-left: 60px !important;
@@ -61,10 +72,10 @@ export const EmailInputWrapper = styled.div`
     @media (max-width: 768px) {
     }
     &:focus {
-      border: 0;
+      border: 1;
       box-shadow: 0px 7px 25px 0px rgba(22, 53, 76, 0.08);
+      color: #0f2137;
     }
-
     &:placeholder {
       font-size: 16px;
       color: #343d48;
@@ -85,7 +96,7 @@ export const EmailInputWrapper = styled.div`
 `;
 
 export const DiscountLabel = styled.div`
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', 'Open Sans', sans-serif;
   display: inline-block;
   border-radius: 4em;
   padding: 10px 24px 0 6px;
