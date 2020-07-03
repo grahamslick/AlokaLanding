@@ -105,7 +105,7 @@ const Navbar = ({ navbarStyle, logoStyle, buttonStyle }) => {
             toggleHandler={toggleHandler}
           >
             <ScrollSpyMenu
-              menuItems={Data.appJson.menuItems}
+              menuItems={data.menuItems}
               drawerClose={true}
               offset={-100}
             />
