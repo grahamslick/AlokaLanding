@@ -27,36 +27,20 @@ const Footer = ({
       <Container>
         <Box className="row" {...row}>
           {/* End of footer logo column */}
-          <Box {...colOne}>
-            {data.menuWidget.map(widget => (
-              <Box className="col" {...col} key={widget.id}>
-                <Heading content={widget.title} {...titleStyle} />
-                <List>
-                  {widget.menuItems.map(item => (
-                    <ListItem key={`list__item-${item.id}`}>
-                      <Link href={item.url}>
-                        <a className="ListItem">{item.text}</a>
-                      </Link>
-                    </ListItem>
-                  ))}
-                </List>
-              </Box>
-            ))}
-          </Box>
           <Box {...colTwo} className="copyrightClass">
             <Logo
-              href="#"
+              href="/"
               logoSrc={LogoImage}
-              title="App"
+              title="Aloka"
               logoStyle={logoStyle}
             />
             <Box {...copyrightMenu} className="copyrightMenu">
-              <Text content="Help" {...textStyle} />
+              <Text content="Contact" {...textStyle} />
               <Text content="Privacy" {...textStyle} />
               <Text content="Terms" {...textStyle} />
             </Box>
             <Box {...copyright} className="copyrightText">
-              <Text content="copyright 2019 RedQ, Inc." {...textStyle} />
+              <Text content="Copyright ©2020 Aloka.io" {...textStyle} />
             </Box>
           </Box>
           {/* End of footer List column */}
@@ -91,9 +75,9 @@ Footer.defaultProps = {
     mt: [0, '13px'],
     mb: ['0px', 0],
     pl: ['15px', 0],
-    pt: ['35px', '55px'],
+    pt: ['0px', '0px'],
     pr: ['15px', '15px', 0],
-    borderTop: '1px solid',
+    borderTop: '0px solid',
     borderColor: 'rgba(0,0,0,0.102)',
     flexBox: true,
     flexWrap: 'wrap',
@@ -114,27 +98,28 @@ Footer.defaultProps = {
   },
   // widget title default style
   titleStyle: {
-    color: '#343d48',
+    color: '#0F2137',
     fontSize: '16px',
     fontWeight: '700',
   },
   // Default logo size
   logoStyle: {
-    width: 'auto',
+    width: '64%',
     mb: ['15px', 0],
+    pb: '20px',
   },
   // widget text default style
   textStyle: {
-    color: '#20201d',
+    color: '#0F2137',
     fontSize: '14px',
-    mb: '10px',
+    mb: '20px',
     mr: '30px',
   },
   copyrightMenu: {
     flexBox: true,
     flexWrap: 'wrap',
     ml: [0, '40px'],
-    mt: '3px',
+    mt: '0px',
     fontWeight: '500',
     justifyContent: 'center',
     alignItems: 'center',
@@ -142,9 +127,9 @@ Footer.defaultProps = {
   },
   copyright: {
     ml: [0, 0, 0, 'auto', 'auto'],
-    color: '#20201d',
+    color: '#0F2137',
     fontSize: '14px',
-    mb: '10px',
+    mb: '0px',
     mt: '3px',
     fontWeight: '500',
     justifyContent: 'center',
