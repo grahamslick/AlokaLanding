@@ -185,7 +185,7 @@ const FeatureSliderWrapper = styled.div`
             line-height: 24px;
             letter-spacing: -0.01em;
             color: #0f2137;
-            font-family: 'Open sans';
+            font-family: 'Poppins';
             top: 0;
             text-shadow: none;
             transform: none;
