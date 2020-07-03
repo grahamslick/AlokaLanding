@@ -21,7 +21,7 @@ const FeatureSection = ({
   blockWrapperStyle,
 }) => {
   return (
-    <FeatureSectionWrapper id="services">
+    <FeatureSectionWrapper id="features">
       <Container>
         <Box {...sectionHeader}>
           <Text {...sectionSubTitle} />
@@ -63,28 +63,29 @@ FeatureSection.propTypes = {
 FeatureSection.defaultProps = {
   // section header default style
   sectionHeader: {
-    mb: ['30px', '30px', '30px', '56px'],
+    mb: ['30px', '30px', '30px', '36px'],
+    pt: ['20px', '40px', '40px', '20px', '20px'],
   },
   // sub section default style
   sectionSubTitle: {
-    content: 'OUR SERVICES',
+    content: 'FEATURES',
     as: 'span',
     display: 'block',
     fontSize: '14px',
     letterSpacing: '0.13em',
     fontWeight: '700',
-    color: '#1a73e8',
+    color: '#DB9A5D',
     mb: '10px',
     textAlign: ['center'],
   },
   // section title default style
   sectionTitle: {
-    content: 'Featured Service that We Provide',
-    fontSize: ['20px', '24px', '24px', '24px', '30px'],
-    fontWeight: '400',
+    content: 'Find New Ways to Connect, Learn and Grow',
+    fontSize: ['20px', '24px', '30px', '32px', '42px'],
+    fontWeight: '300',
     color: '#0f2137',
-    letterSpacing: '-0.025em',
-    mb: '0',
+    letterSpacing: '-0.01em',
+    mb: '-20px',
     textAlign: ['center'],
   },
   // feature row default style
@@ -123,7 +124,7 @@ FeatureSection.defaultProps = {
   // feature title default style
   featureTitle: {
     fontSize: ['18px', '20px'],
-    fontWeight: '400',
+    fontWeight: '500',
     color: '#0f2137',
     lineHeight: '1.5',
     mb: ['10px', '10px', '10px', '20px'],

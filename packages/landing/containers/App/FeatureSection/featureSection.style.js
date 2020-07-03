@@ -45,14 +45,14 @@ const FeatureSectionWrapper = styled.section`
       &:nth-child(1) {
         .feature__block {
           .icon__wrapper {
-            color: #29cf8a;
+            color: #1b72e8;
             transition: all 0.6s ease;
           }
         }
         &:hover {
           .feature__block {
             .icon__wrapper {
-              background: #29cf8a;
+              background: #1b72e8;
               color: #fff;
               border: 0;
             }
@@ -62,14 +62,14 @@ const FeatureSectionWrapper = styled.section`
       &:nth-child(2) {
         .feature__block {
           .icon__wrapper {
-            color: #ff86ab;
+            color: #0fd45e;
             transition: all 0.6s ease;
           }
         }
         &:hover {
           .feature__block {
             .icon__wrapper {
-              background: #ff86ab;
+              background: #0fd45e;
               color: #fff;
               border: 0;
             }
@@ -79,7 +79,7 @@ const FeatureSectionWrapper = styled.section`
       &:nth-child(3) {
         .feature__block {
           .icon__wrapper {
-            color: #ff9000;
+            color: #5d1be8;
             transition: all 0.6s ease;
           }
         }
@@ -87,7 +87,7 @@ const FeatureSectionWrapper = styled.section`
       &:hover {
         .feature__block {
           .icon__wrapper {
-            background: #ff9000;
+            background: #5d1be8;
             color: #fff;
           }
         }
