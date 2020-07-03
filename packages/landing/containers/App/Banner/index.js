@@ -66,23 +66,6 @@ const DomainSection = ({
                 aria-label="email"
               />
             </EmailInputWrapper>
-            <ButtonWrapper>
-              <Link href="#services">
-                <a>
-                  <Button {...button} {...btnStyle} />
-                </a>
-              </Link>
-              <Link href="#">
-                <a>
-                  <Button
-                    {...button}
-                    {...btnStyleTwo}
-                    icon={<Icon icon={ic_arrow_forward} />}
-                    className="withoutBg"
-                  />
-                </a>
-              </Link>
-            </ButtonWrapper>
           </Box>
           <Box {...col} {...imageArea}>
             <Image src={AppScreenshot} alt="Domain Image" {...image} />
