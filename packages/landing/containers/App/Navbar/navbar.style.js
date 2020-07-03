@@ -27,7 +27,7 @@ const Container = styled.div`
         width: auto;
         margin: 0;
         @media (max-width: 1100px) {
-          color: rgb(26, 115, 232) !important;
+          color: rgb(218, 152, 91) !important;
         }
       }
     }
@@ -37,7 +37,7 @@ const Container = styled.div`
     span {
       background-color: #fff;
       @media (max-width: 1100px) {
-        background-color: rgb(26, 115, 232) !important;
+        background-color: rgb(218, 152, 91) !important;
       }
     }
   }
