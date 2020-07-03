@@ -6,11 +6,11 @@ import ImageGallery from 'react-image-gallery';
 import 'react-image-gallery/styles/css/image-gallery.css';
 import data from 'common/src/data/App/TestimonialSlider';
 import SliderDes from '../sliderDescription';
-import Image1 from 'common/src/assets/image/app/6.png';
-import Image2 from 'common/src/assets/image/app/2.jpg';
-import Image3 from 'common/src/assets/image/app/5.jpg';
-import Image4 from 'common/src/assets/image/app/testi.jpg';
-import Image5 from 'common/src/assets/image/app/1.jpeg';
+import Image1 from 'common/src/assets/image/app/abt_banyan_bonsai.jpg';
+import Image2 from 'common/src/assets/image/app/abt_krishna.jpg';
+import Image4 from 'common/src/assets/image/app/abt_moldavite.png';
+import Image3 from 'common/src/assets/image/app/abt_conch.png';
+import Image5 from 'common/src/assets/image/app/abt_merkaba.png';
 
 const images = [
   {
@@ -70,11 +70,11 @@ TestimonialSection.defaultProps = {
   sectionWrapper: {
     as: 'section',
     pt: '0px',
-    pb: ['20px', '80px', '0px', '80px', '80px'],
+    pb: ['20px', '80px', '0px', '200px', '200px'],
   },
 
   sectionSubTitle: {
-    content: 'CLIENT TESTIMONIAL',
+    content: 'ABOUT',
     as: 'span',
     display: 'block',
     textAlign: ['center', 'left'],
