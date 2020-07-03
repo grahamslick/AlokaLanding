@@ -22,7 +22,7 @@ import BannerWrapper, {
   EmailInputWrapper,
 } from './banner.style';
 
-import AppScreenshot from 'common/src/assets/image/app/mobile4.png';
+import AppScreenshot from 'common/src/assets/image/app/mobile.png';
 
 const DomainSection = ({
   SectionWrapper,
