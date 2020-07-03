@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Link from 'next/link';
 import Fade from 'react-reveal/Fade';
 import Box from 'common/src/components/Box';
 import Text from 'common/src/components/Text';
@@ -31,7 +30,7 @@ const ControllSection = ({
   btnStyle,
 }) => {
   return (
-    <Box {...sectionWrapper} id="control">
+    <Box {...sectionWrapper} id="events">
       <Container fullWidth noGutter className="control-sec-container">
         <Box {...row} {...imageAreaRow}>
           <Box {...col} {...imageArea}>
@@ -51,26 +50,24 @@ const ControllSection = ({
       <Container>
         <Box {...row} {...textAreaRow}>
           <Box {...col} {...textArea}>
-            <Text content="EASY DEPLOYMENT" {...sectionSubTitle} />
+            <Text content="EVENTS — LIVE AND ONLINE" {...sectionSubTitle} />
             <FeatureBlock
               title={
                 <Heading
-                  content="Deploy your site with simple commands"
+                  content="Approachable and Authentic Experiences"
                   {...title}
                 />
               }
               description={
                 <Text
-                  content="You can deploy your site with firebase or Now.sh with some simple process. The deployment is made easy for our customers and according to their needs."
+                  content="It can be a very tall mountain to climb in exploring new meditative practices. We strive for inclusive authentic experiences where all feel welcome no matter how seasoned the practitioner."
                   {...description}
                 />
               }
               button={
-                <Link href="#">
-                  <a>
-                    <Button title="LEARN MORE" {...button} {...btnStyle} />
-                  </a>
-                </Link>
+                <a href="http://alokawellness.eventbrite.com" target="_blank">
+                  <Button title="UPCOMING EVENTS" {...button} />
+                </a>
               }
             />
           </Box>
@@ -87,14 +84,13 @@ ControllSection.propTypes = {
   title: PropTypes.object,
   description: PropTypes.object,
   button: PropTypes.object,
-  btnStyle: PropTypes.object,
 };
 
 ControllSection.defaultProps = {
   sectionWrapper: {
     as: 'section',
-    pt: ['40px', '80px'],
-    pb: ['40px', '80px'],
+    pt: ['40px', '100px'],
+    pb: ['40px', '260px'],
   },
   row: {
     flexBox: true,
@@ -134,7 +130,7 @@ ControllSection.defaultProps = {
     fontSize: '14px',
     letterSpacing: '0.11em',
     fontWeight: '700',
-    color: '#1a73e8',
+    color: '#DB9A5D',
     textTransform: 'uppercase',
     mb: '10px',
     textAlign: ['center', 'left'],
@@ -150,7 +146,7 @@ ControllSection.defaultProps = {
   },
   description: {
     fontSize: '16px',
-    color: '#343d48cc',
+    color: '#343d48',
     lineHeight: '1.75',
     mb: '33px',
     maxWidth: ['100%', '100%', '100%', '440px', '440px'],
@@ -158,18 +154,14 @@ ControllSection.defaultProps = {
   },
   button: {
     type: 'button',
+    minWidth: '156px',
     fontSize: '14px',
-    fontWeight: '600',
+    fontWeight: '500',
     color: '#fff',
     borderRadius: '4px',
     pl: '22px',
     pr: '22px',
     colors: 'primaryWithBg',
-  },
-  btnStyle: {
-    minWidth: '156px',
-    fontSize: '14px',
-    fontWeight: '500',
   },
 };
 
