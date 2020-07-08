@@ -26,7 +26,7 @@ const ParticlesComponent = () => {
           particles: {
             number: {
               value: 5,
-              density: { enable: true, value_area: 500 },
+              density: { enable: true, value_area: 600 },
             },
 
             shape: {
@@ -115,14 +115,14 @@ const ParticlesComponent = () => {
               ],
             },
             opacity: {
-              value: 0,
+              value: 1,
               random: false,
               anim: { enable: false, speed: 1, opacity_min: 0, sync: false },
             },
             size: {
-              value: 30,
+              value: 28,
               random: true,
-              anim: { enable: false, speed: 30, size_min: 15, sync: false },
+              anim: { enable: false, speed: 20, size_min: 22, sync: false },
             },
             line_linked: {
               enable: false,
@@ -137,8 +137,8 @@ const ParticlesComponent = () => {
               direction: 'none',
               random: false,
               straight: false,
-              out_mode: 'out',
-              bounce: false,
+              // out_mode: 'out',
+              bounce: true,
               attract: { enable: false, rotateX: 600, rotateY: 1200 },
             },
           },
