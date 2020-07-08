@@ -92,7 +92,7 @@ DomainSection.propTypes = {
 DomainSection.defaultProps = {
   SectionWrapper: {
     as: 'section',
-    pt: '80px',
+    pt: '120px',
     pb: '80px',
     overflow: 'hidden',
   },
@@ -113,7 +113,7 @@ DomainSection.defaultProps = {
     mt: '-80px',
   },
   imageArea: {
-    width: ['0%', '0%', '43%', '35%', '40%'],
+    width: ['0%', '0%', '43%', '45%', '45%'],
     ml: 'auto',
   },
   title: {
