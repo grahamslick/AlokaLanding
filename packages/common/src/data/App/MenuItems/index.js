@@ -23,17 +23,17 @@ const data = {
     {
       label: 'The App',
       path: '#keyfeature',
-      offset: '100',
+      offset: '-100',
     },
     {
       label: 'Unlocks',
       path: '#payments',
-      offset: '100',
+      offset: '-50',
     },
     {
       label: 'About',
       path: '#testimonialSection',
-      offset: '100',
+      offset: '-50',
     },
     {
       label: 'Contact',
