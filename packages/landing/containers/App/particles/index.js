@@ -1,11 +1,21 @@
 import React from 'react';
 import Particles from 'react-particles-js';
-import Img1 from 'common/src/assets/image/app/img-1.png';
-import Img2 from 'common/src/assets/image/app/img-3.png';
-import Img3 from 'common/src/assets/image/app/img-4.png';
-import Img4 from 'common/src/assets/image/app/img-5.png';
-import Img5 from 'common/src/assets/image/app/img-6.png';
-import Img6 from 'common/src/assets/image/app/img-8.png';
+import Img01 from 'common/src/assets/image/app/img-01.png';
+import Img02 from 'common/src/assets/image/app/img-02.png';
+import Img03 from 'common/src/assets/image/app/img-03.png';
+import Img04 from 'common/src/assets/image/app/img-04.png';
+import Img05 from 'common/src/assets/image/app/img-05.png';
+import Img06 from 'common/src/assets/image/app/img-06.png';
+import Img07 from 'common/src/assets/image/app/img-07.png';
+import Img08 from 'common/src/assets/image/app/img-08.png';
+import Img09 from 'common/src/assets/image/app/img-09.png';
+import Img10 from 'common/src/assets/image/app/img-10.png';
+import Img11 from 'common/src/assets/image/app/img-11.png';
+import Img12 from 'common/src/assets/image/app/img-12.png';
+import Img13 from 'common/src/assets/image/app/particle_breathwork.png';
+import Img14 from 'common/src/assets/image/app/particle_meditation.png';
+import Img15 from 'common/src/assets/image/app/particle_selfcare.png';
+import Img16 from 'common/src/assets/image/app/particle_yoga.png';
 
 const ParticlesComponent = () => {
   return (
@@ -15,60 +25,110 @@ const ParticlesComponent = () => {
         params={{
           particles: {
             number: {
-              value: 15,
-              density: { enable: true, value_area: 800 },
+              value: 5,
+              density: { enable: true, value_area: 500 },
             },
 
             shape: {
               type: ['images'],
               images: [
                 {
-                  src: `${Img1}`,
-                  width: 50,
-                  height: 53,
+                  src: `${Img01}`,
+                  width: 1,
+                  height: 1,
                 },
                 {
-                  src: `${Img2}`,
-                  width: 50,
-                  height: 53,
+                  src: `${Img02}`,
+                  width: 1,
+                  height: 1,
                 },
                 {
-                  src: `${Img3}`,
-                  width: 20,
-                  height: 23,
+                  src: `${Img03}`,
+                  width: 1,
+                  height: 1,
                 },
                 {
-                  src: `${Img4}`,
-                  width: 20,
-                  height: 23,
+                  src: `${Img04}`,
+                  width: 1,
+                  height: 1,
                 },
                 {
-                  src: `${Img5}`,
-                  width: 50,
-                  height: 53,
+                  src: `${Img05}`,
+                  width: 1,
+                  height: 1,
                 },
                 {
-                  src: `${Img6}`,
-                  width: 50,
-                  height: 53,
+                  src: `${Img06}`,
+                  width: 1,
+                  height: 1,
+                },
+                {
+                  src: `${Img07}`,
+                  width: 1,
+                  height: 1,
+                },
+                {
+                  src: `${Img08}`,
+                  width: 1,
+                  height: 1,
+                },
+                {
+                  src: `${Img09}`,
+                  width: 1,
+                  height: 1,
+                },
+                {
+                  src: `${Img10}`,
+                  width: 1,
+                  height: 1,
+                },
+                {
+                  src: `${Img11}`,
+                  width: 1,
+                  height: 1,
+                },
+                {
+                  src: `${Img12}`,
+                  width: 1,
+                  height: 1,
+                },
+                {
+                  src: `${Img13}`,
+                  width: 1,
+                  height: 1,
+                },
+                {
+                  src: `${Img14}`,
+                  width: 1,
+                  height: 1,
+                },
+                {
+                  src: `${Img15}`,
+                  width: 1,
+                  height: 1,
+                },
+                {
+                  src: `${Img16}`,
+                  width: 1,
+                  height: 1,
                 },
               ],
             },
             opacity: {
-              value: 0.17626369048095938,
+              value: 0,
               random: false,
-              anim: { enable: false, speed: 1, opacity_min: 0.1, sync: false },
+              anim: { enable: false, speed: 1, opacity_min: 0, sync: false },
             },
             size: {
-              value: 11,
+              value: 30,
               random: true,
-              anim: { enable: false, speed: 40, size_min: 0.8, sync: false },
+              anim: { enable: false, speed: 30, size_min: 15, sync: false },
             },
             line_linked: {
               enable: false,
               distance: 150,
               color: '#ffffff',
-              opacity: 0.4,
+              opacity: 1,
               width: 1,
             },
             move: {
@@ -93,7 +153,7 @@ const ParticlesComponent = () => {
               grab: { distance: 400, line_linked: { opacity: 1 } },
               bubble: {
                 distance: 400,
-                size: 40,
+                size: 10,
                 duration: 2,
                 opacity: 8,
                 speed: 3,
