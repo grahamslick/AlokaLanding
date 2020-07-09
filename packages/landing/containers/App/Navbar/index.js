@@ -93,24 +93,12 @@ const Navbar = ({ navbarStyle, logoStyle, buttonStyle }) => {
         <Logo
           href="#"
           logoSrc={LogoImage}
-          title="Agency"
+          title="Aloka"
           logoStyle={logoStyle}
         />
         <div style={{ display: 'flex', alignItems: 'center' }}>
-          <Button
-            variant="textButton"
-            onClick={handleSearchModal}
-            icon={<i className="flaticon-magnifying-glass" />}
-            aria-label="search"
-          />
-          <Button
-            variant="textButton"
-            onClick={handleLoginModal}
-            icon={<i className="flaticon-user" />}
-            aria-label="login"
-          />
           <Drawer
-            width="420px"
+            width="360px"
             placement="right"
             drawerHandler={<HamburgMenu />}
             open={state.isOpen}
@@ -141,7 +129,9 @@ Navbar.defaultProps = {
     minHeight: '70px',
   },
   logoStyle: {
-    width: ['100px', '140px'],
+    width: ['100px', '180px'],
+    paddingTop: ['8px', '12px'],
+    paddingBottom: ['8px', '12px'],
   },
   buttonStyle: {
     minHeight: '70px',
