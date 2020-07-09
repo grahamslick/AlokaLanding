@@ -22,7 +22,7 @@ const FeatureSection = ({
   blockWrapperStyle,
 }) => {
   return (
-    <FeatureSectionTwoWrapper>
+    <FeatureSectionTwoWrapper id="keyfeatures">
       <Container>
         <Box {...sectionHeader}>
           <Text {...sectionSubTitle} />
@@ -126,6 +126,12 @@ FeatureSection.defaultProps = {
     lineHeight: '1.5',
     mb: '20px',
     letterSpacing: '-0.020em',
+  },
+  // feature description default style
+  featureDescription: {
+    fontSize: ['14px', '15px'],
+    lineHeight: '1.84',
+    color: '#343d48',
   },
 };
 
