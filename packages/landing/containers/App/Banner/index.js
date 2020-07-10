@@ -39,7 +39,7 @@ const DomainSection = ({
   discountText,
 }) => {
   return (
-    <Box {...SectionWrapper} id="home">
+    <Box {...SectionWrapper}>
       <ParticlesComponent />
       <BannerSquareShape />
       <BannerCircleShape />

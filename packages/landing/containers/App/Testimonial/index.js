@@ -63,6 +63,7 @@ const TestimonialSection = ({ sectionWrapper, row, sectionSubTitle }) => {
 
 TestimonialSection.propTypes = {
   sectionWrapper: PropTypes.object,
+  title: PropTypes.object,
 };
 
 TestimonialSection.defaultProps = {

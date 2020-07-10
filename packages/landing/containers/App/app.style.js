@@ -7,7 +7,7 @@ import BannerPattern from 'common/src/assets/image/app/pattern.png';
 
 const GlobalStyle = createGlobalStyle`
   body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Open Sans', sans-serif;
   }
 
   h1,
@@ -16,7 +16,7 @@ const GlobalStyle = createGlobalStyle`
   h4,
   h5,
   h6 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Open Sans', sans-serif;
   }
 
   section{
@@ -85,7 +85,6 @@ const GlobalStyle = createGlobalStyle`
     }
 
     /* Modal default style */
-   
 
     button.modalCloseBtn {
       position: fixed !important;
@@ -218,7 +217,7 @@ const AppWrapper = styled.div`
         color: ${themeGet('colors.white', '#ffffff')};
         font-size: 18px;
         @media only screen and (max-width: 1100px) {
-          color: ${themeGet('colors.primary', '#DB9A5D')};
+          color: ${themeGet('colors.primary', '#1a73e8')};
         }
         @media only screen and (max-width: 420px) {
           font-size: 14px;
@@ -242,7 +241,7 @@ const AppWrapper = styled.div`
       > span {
         background-color: ${themeGet('colors.white', '#ffffff')};
         @media only screen and (max-width: 990px) {
-          background-color: ${themeGet('colors.primary', '#DB9A5D')};
+          background-color: ${themeGet('colors.primary', '#1a73e8')};
         }
       }
     }
@@ -268,11 +267,11 @@ const AppWrapper = styled.div`
 
       .reusecore__button {
         .btn-icon {
-          color: ${themeGet('colors.primary', '#DB9A5D')};
+          color: ${themeGet('colors.primary', '#1a73e8')};
         }
       }
       .hamburgMenu__bar > span {
-        background-color: ${themeGet('colors.copper', '#DB9A5D')};
+        background-color: ${themeGet('colors.primary', '#1a73e8')};
       }
     }
   }
@@ -296,12 +295,12 @@ const AppWrapper = styled.div`
       display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
-      color: rgb(218, 152, 91);
+      color: rgb(26, 115, 232);
       width: 35px;
     }
     &:hover {
-      box-shadow: 0px 9px 20px -5px rgba(218, 152, 91, 0.64);
-      background-color: rgb(218, 152, 91);
+      box-shadow: 0px 9px 20px -5px rgba(26, 115, 232, 0.57);
+      background-color: rgb(26, 115, 232);
       cursor: pointer;
     }
     &.withoutBg {
@@ -357,8 +356,8 @@ const AppWrapper = styled.div`
         flex-direction: column;
       }
       .image-gallery-slide-wrapper {
-        max-width: 50%;
-        width: 50%;
+        max-width: 60%;
+        width: 60%;
         display: flex;
         flex-wrap: wrap;
         flex-direction: column-reverse;
@@ -402,7 +401,7 @@ const AppWrapper = styled.div`
               .testimonialDes {
                 box-sizing: border-box;
                 margin-top: -10px;
-                margin-bottom: 0px;
+                max-width: 550px;
                 font-size: 36px;
                 line-height: 50px;
                 color: #0f2137;
@@ -425,11 +424,12 @@ const AppWrapper = styled.div`
                   text-align: center;
                 }
                 &::before {
+                  content: 'CUSTOMER OPINIONS';
                   box-sizing: border-box;
                   margin-bottom: 10px;
                   margin-top: 0px;
                   font-size: 14px;
-                  color: #db9a5d;
+                  color: #1a73e8;
                   display: block;
                   font-weight: 700;
                   text-align: left;
@@ -447,23 +447,16 @@ const AppWrapper = styled.div`
                   text-align: center;
                 }
                 .testimonialName {
-                  font-size: 14px;
+                  font-size: 18px;
                   line-height: 33px;
-                  color: #db9a5d;
+                  color: #343d48;
                   font-weight: 700;
-                  padding-bottom: 10px;
-                  margin-top: 0px;
-                  -webkit-letter-spacing: 0.11em;
-                  -moz-letter-spacing: 0.11em;
-                  -ms-letter-spacing: 0.11em;
-                  letter-spacing: 0.11em;
                   margin-bottom: -3px;
                 }
                 .testimonialDesignation {
                   font-size: 16px;
                   line-height: 33px;
                   color: #343d48;
-                  line-height: 2.1;
                   font-weight: 400;
                   opacity: 0.8;
                 }
@@ -569,9 +562,9 @@ const AppWrapper = styled.div`
         }
       }
       .image-gallery-thumbnails-wrapper {
-        max-width: 50%;
+        max-width: 40%;
         height: 520px;
-        width: 50%;
+        width: 40%;
 
         @media screen and (max-width: 1100px) and (min-width: 992px) {
           padding-left: 25px;
@@ -592,7 +585,7 @@ const AppWrapper = styled.div`
         }
         .image-gallery-thumbnails {
           overflow: initial;
-          padding-left: 120px;
+          padding-left: 30px;
           @media (max-width: 991px) {
             padding-left: 0px;
           }
@@ -636,8 +629,8 @@ const AppWrapper = styled.div`
             position: absolute;
             top: 150px;
             left: 0;
-            width: 180px;
-            height: 180px;
+            width: 120px;
+            height: 120px;
             @media (max-width: 991px) {
               position: absolute;
               top: 220px;
@@ -857,7 +850,7 @@ const AppWrapper = styled.div`
   }
   .cardExtraImage {
     @media screen and (max-width: 1440px) and (min-width: 1100px) {
-      margin-left: -810px;
+      margin-left: -270px;
       margin-top: 50px;
     }
   }
@@ -866,7 +859,7 @@ const AppWrapper = styled.div`
 const BannerSquareShape = styled.div`
   width: 980px;
   height: 1110px;
-  background: #0f2137;
+  background: #1a73e8;
   border-radius: 50px;
   -webkit-transform: rotate(105deg);
   -ms-transform: rotate(105deg);
@@ -877,7 +870,6 @@ const BannerSquareShape = styled.div`
   z-index: -1;
   pointer-events: none;
   background-image: url(${BannerPattern});
-  background-size: cover;
   @media (max-width: 1300px) {
     width: 870px;
     height: 1000px;
@@ -892,10 +884,10 @@ const BannerSquareShape = styled.div`
 const BannerCircleShape = styled.div`
   width: 500px;
   height: 500px;
-  background: #fff;
+  background: #ffc845;
   border-radius: 50%;
   position: absolute;
-  left: 58%;
+  left: 55%;
   top: 47%;
   z-index: -1;
   transform: translateY(-50%);
@@ -920,28 +912,12 @@ const BannerCircleShape = styled.div`
   }
 `;
 const PaymentCircleShape = styled.div`
-  width: 500px;
-  height: 500px;
-
-  background-image: linear-gradient(
-    to right bottom,
-    #b87333,
-    #c17d3f,
-    #ca884c,
-    #d29258,
-    #db9d65,
-    #dea068,
-    #e0a36c,
-    #e3a66f,
-    #e1a26a,
-    #df9f65,
-    #dc9b60,
-    #da985b
-  );
-
+  width: 700px;
+  height: 700px;
+  background: #ffc845;
   border-radius: 50%;
   position: absolute;
-  left: 13%;
+  left: 5%;
   top: 47%;
   z-index: -1;
   transform: translateY(-50%);

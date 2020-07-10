@@ -2,41 +2,41 @@ const data = {
   testimonials: [
     {
       id: 1,
-      name: 'ABOUT',
-      description: 'Connecting with Yourself and Everything Around You ',
-      designation:
-        'We are a small team focused on connecting people with themselves and with all. The idea came out of the difficulty to find a consistent meditation routine. ',
+      description:
+        'Best working experience  with this amazing team & in future, we want to work together',
+      name: 'Jon Doe',
+      designation: 'Founder of Dumpy',
     },
     {
       id: 2,
-      name: 'MISSION',
-      description: 'Believe in Growth',
-      designation:
-        'Growth in an overall positive direction is the nature of the universe. ',
+      description:
+        'Impressed with master class support of the team and really look forward for the future.',
+      name: 'Roman Ul Oman',
+      designation: 'Co-founder of QatarDiaries',
     },
 
     {
       id: 3,
-      name: 'AUTHENTICITY',
-      description: 'Honest, Authentic, Open',
-      designation:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tristique velit ut sapien dignissim, ut luctus ligula volutpat. Vivamus ut nisl id sem finibus vehicula. Duis luctus pulvinar purus, sed fringilla augue tincidunt eget. ',
+      description:
+        'I have bought more than 10 themes on ThemeForest, and this is the first one I review. Wow! Amazing React Theme',
+      name: 'Jeny Doe',
+      designation: 'Director of Beauty-queen',
     },
 
     {
       id: 4,
-      name: 'GRATITUDE',
-      description: 'Collaborators, Guides and Empaths',
-      designation:
-        'We are thankful for our collaborators and supporters for their knowledge, ideas and big hearts who helped to bring to light something meaningful and we are looking for others to help lend a hand. Thank you. ',
+      description:
+        'Really, really well made! Love that each component is handmade and customised. Great Work',
+      name: 'Jeny Doe',
+      designation: 'Co-founder of Softo',
     },
 
     {
       id: 5,
-      name: 'SUPPORT',
-      description: 'Please Consider Supporting Us on Patreon',
-      designation:
-        'We are a small and scrappy startup with big vision, any support in any way would be invaluable. ',
+      description:
+        'It written well. The author has a firm understanding of React and other technologies. It been consistently updated. Great product. Thank you.',
+      name: 'Jon Doe',
+      designation: 'Co-founder of Antinio',
     },
   ],
 };

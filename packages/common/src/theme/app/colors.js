@@ -12,14 +12,11 @@ const colors = {
   borderColor: '#dadada',
   black: '#000000',
   white: '#ffffff',
-  primary: '#DB9A5D',
+  primary: '#1A73E8',
   headingColor: '#0f2137',
   quoteText: '#343d48',
   textColor: 'rgba(52, 61, 72, 0.8)',
   linkColor: '#2b9eff',
-  drkBlue: '#0F2137',
-  primary: '#DB9A5D',
-  copper: '#DB9A5D',
 };
 
 export default colors;
