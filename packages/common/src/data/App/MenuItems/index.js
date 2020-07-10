@@ -1,33 +1,43 @@
 const data = {
   menuItems: [
     {
-      label: 'Our Services',
-      path: '#services',
+      label: 'Home',
+      path: '#home',
       offset: '100',
     },
     {
-      label: 'Control Remotely',
-      path: '#control',
-      offset: '100',
+      label: 'Features',
+      path: '#features',
+      offset: '50',
     },
     {
-      label: 'Key Features',
-      path: '#keyfeature',
-      offset: '0',
+      label: 'Events',
+      path: '#events',
+      offset: '50',
     },
     {
-      label: 'Partners',
-      path: '#partners',
+      label: 'Program',
+      path: '#program',
       offset: '-100',
     },
     {
-      label: 'Payments',
+      label: 'The App',
+      path: '#keyfeature',
+      offset: '100',
+    },
+    {
+      label: 'Unlocks',
       path: '#payments',
       offset: '100',
     },
     {
-      label: 'Testimonial',
+      label: 'About',
       path: '#testimonialSection',
+      offset: '100',
+    },
+    {
+      label: 'Contact',
+      path: '#',
       offset: '100',
     },
   ],
