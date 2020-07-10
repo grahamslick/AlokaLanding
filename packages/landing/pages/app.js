@@ -54,11 +54,17 @@ export default () => {
     <ThemeProvider theme={appTheme}>
       <>
         <Head>
-          <title>App | A react next landing page</title>
-          <meta name="Description" content="React next landing page" />
+          <title>
+            Aloka | Grow your inner light with Meditation, Yoga, Breathwork,
+            Selfcare and Journaling
+          </title>
+          <meta
+            name="Description"
+            content="Grow your inner light with Meditation, Yoga, Breathwork, Selfcare and Journaling"
+          />
           <meta name="theme-color" content="#ec5555" />
           <link
-            href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700"
+            href="https://fonts.googleapis.com/css?family=Poppins:300,400,700"
             rel="stylesheet"
           />
         </Head>
@@ -75,10 +81,10 @@ export default () => {
           <DomainSection />
           <FeatureSection />
           <ControllSection />
+          <PartnerHistory />
           <ConditionWrapper id="keyfeature">
             {size.innerWidth > 1100 ? <FeatureSlider /> : <FeatureSliderTwo />}
           </ConditionWrapper>
-          <PartnerHistory />
           <PaymentSection />
           <TestimonialSection />
           <Footer />

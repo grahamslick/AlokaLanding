@@ -2,56 +2,56 @@
   "features": [
     {
       "id": 1,
-      "icon": "flaticon-atom",
-      "title": "App Development",
-      "description": "If you have to develop a mobile app, this is the most appropriate time."
+      "icon": "flaticon-trophy",
+      "title": "The Program",
+      "description": " We've created a system conatining a variety of diciplines you can explore, experience journaling, and a creative unlock system designed to engage and motivate. "
     },
     {
       "id": 2,
-      "icon": "flaticon-trophy",
-      "title": "UI/UX Design",
-      "description": "We provide the best UI/UX Design by following the latest trends of the market."
+      "icon": "flaticon-conversation",
+      "title": "The Community",
+      "description": " You have the optional ability to connect, share, build relationships, guide and grow with a community of like-minded individuals on the app and in real-life. "
     },
     {
       "id": 3,
-      "icon": "flaticon-conversation",
-      "title": "Wireframing Task",
-      "description": " We respect our customer opinions and deals with them. "
+      "icon": "flaticon-atom",
+      "title": "The Events",
+      "description": " Real-life and online events bring you deeper and tangible experiences, our 'Intro to Everything' event is designed to demystify multiple modalities in a relaxed setting. "
     }
   ],
   "featuresSliderTwo": [
     {
       "id": 1,
-      "image": "../../assets/image/app/6.svg",
-      "title": "Super Performance"
+      "image": "../../assets/image/app/1.svg",
+      "title": "Follow Your Progress"
     },
     {
       "id": 2,
-      "image": "../../assets/image/app/1.svg",
-      "title": "Search Optimization"
+      "image": "../../assets/image/app/2.svg",
+      "title": "Video and Audio"
     },
     {
       "id": 3,
-      "image": "../../assets/image/app/2.svg",
-      "title": "Customer Support"
+      "image": "../../assets/image/app/3.svg",
+      "title": "Personal Journaling"
     },
 
     {
       "id": 4,
-      "image": "../../assets/image/app/3.svg",
-      "title": "100% Response Time"
+      "image": "../../assets/image/app/4.svg",
+      "title": "Meet People"
     },
 
     {
       "id": 5,
-      "image": "../../assets/image/app/4.svg",
-      "title": "Maintaining Milestones"
+      "image": "../../assets/image/app/5.svg",
+      "title": "Explore Selfcare"
     },
 
     {
       "id": 6,
-      "image": "../../assets/image/app/5.svg",
-      "title": "Organised Code"
+      "image": "../../assets/image/app/6.svg",
+      "title": "Level Unlocks"
     }
   ],
   "menuWidget": [
@@ -177,69 +177,80 @@
   ],
   "menuItems": [
     {
-      "label": "Our Services",
-      "path": "#services",
+      "label": "Home",
+      "path": "#home",
       "offset": "100"
     },
     {
-      "label": "Control Remotely",
-      "path": "#control",
-      "offset": "100"
+      "label": "Features",
+      "path": "#features",
+      "offset": "50"
     },
     {
-      "label": "Key Features",
-      "path": "#keyfeature",
-      "offset": "0"
+      "label": "Events",
+      "path": "#events",
+      "offset": "50"
     },
     {
-      "label": "Partners",
-      "path": "#partners",
+      "label": "Program",
+      "path": "#program",
       "offset": "-100"
     },
+
     {
-      "label": "Payments",
+      "label": "The App",
+      "path": "#keyfeature",
+      "offset": "-50"
+    },
+    {
+      "label": "Unlocks",
       "path": "#payments",
       "offset": "100"
     },
     {
-      "label": "Testimonial",
+      "label": "About",
       "path": "#testimonialSection",
+      "offset": "100"
+    },
+    {
+      "label": "Contact",
+      "path": "#",
       "offset": "100"
     }
   ],
   "testimonials": [
     {
       "id": 1,
-      "description": "Best working experience  with this amazing team & in future, we want to work together",
-      "name": "Jon Doe",
-      "designation": "Founder of Dumpy"
+      "name": "ABOUT",
+      "description": "Connecting with Yourself and Everything Around You ",
+      "designation": "We're a small team focused on connecting people with themselves and with all. The idea came out of the difficulty to find a consistent meditation routine. "
     },
     {
       "id": 2,
-      "description": "Impressed with master class support of the team and really look forward for the future.",
-      "name": "Roman Ul Oman",
-      "designation": "Co-founder of QatarDiaries"
+      "name": "MISSION",
+      "description": "Believe in Growth",
+      "designation": "Growth in an overall positive direction is the nature of the universe. "
     },
 
     {
       "id": 3,
-      "description": "I have bought more than 10 themes on ThemeForest, and this is the first one I review. Wow! Amazing React Theme",
-      "name": "Jeny Doe",
-      "designation": "Director of Beauty-queen"
+      "name": "AUTHENTICITY",
+      "description": "Honest, Authentic, Open",
+      "designation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tristique velit ut sapien dignissim, ut luctus ligula volutpat. Vivamus ut nisl id sem finibus vehicula. Duis luctus pulvinar purus, sed fringilla augue tincidunt eget. "
     },
 
     {
       "id": 4,
-      "description": "Really, really well made! Love that each component is handmade and customised. Great Work",
-      "name": "Jeny Doe",
-      "designation": "Co-founder of Softo"
+      "name": "GRATITUDE",
+      "description": "Collaborators, Guides and Empaths",
+      "designation": "We're thankful for our collaborators and supporters for their knowledge, ideas and big hearts who helped to bring to light something meaningful and we're looking for others to help lend a hand. Thank you. "
     },
 
     {
       "id": 5,
-      "description": "It written well. The author has a firm understanding of React and other technologies. It been consistently updated. Great product. Thank you.",
-      "name": "Jon Doe",
-      "designation": "Co-founder of Antinio"
+      "name": "SUPPORT",
+      "description": "Please Consider Supporting Us on Patreon",
+      "designation": "We're a small and scrappy startup with big vision, any support in any way would be invaluable. "
     }
   ]
 }
