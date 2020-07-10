@@ -12,8 +12,8 @@ import FeatureBlock from 'common/src/components/FeatureBlock';
 import Container from 'common/src/components/UI/Container';
 import { PaymentCircleShape } from '../app.style';
 
-import ImageOne from 'common/src/assets/image/app/mockup.png';
-import ImageTwo from 'common/src/assets/image/app/credit-card.png';
+import ImageOne from 'common/src/assets/image/app/unlocks_woman.png';
+import ImageTwo from 'common/src/assets/image/app/unlocks_pin.png';
 
 const PaymentSection = ({
   sectionWrapper,
@@ -59,26 +59,19 @@ const PaymentSection = ({
       <Container>
         <Box {...row} {...textAreaRow}>
           <Box {...col} {...textArea}>
-            <Text content="PAYMENT SECURITY" {...sectionSubTitle} />
+            <Text content="UNLOCKS – ALOKA PINS" {...sectionSubTitle} />
             <FeatureBlock
               title={
                 <Heading
-                  content="Secure Payment and Transaction System With #1 ranking"
+                  content="As You Progress You Unlock New Possibilities "
                   {...title}
                 />
               }
               description={
                 <Text
-                  content="Security of our customer is our basic priority and we are best at it . So no need to worry about online payment and Transaction System ."
+                  content="With each level you accomplish you'll unlock new items to show your progress as well as unlocking new content and practice options to explore."
                   {...description}
                 />
-              }
-              button={
-                <Link href="#">
-                  <a>
-                    <Button title="HOW IT WORKS" {...button} {...btnStyle} />
-                  </a>
-                </Link>
               }
             />
           </Box>
@@ -101,8 +94,8 @@ PaymentSection.propTypes = {
 PaymentSection.defaultProps = {
   sectionWrapper: {
     as: 'section',
-    pt: ['20px', '40px', '40px', '80px', '80px'],
-    pb: ['80px', '80px', '80px', '180px', '280px'],
+    pt: ['20px', '40px', '40px', '332px', '332px'],
+    pb: ['80px', '80px', '480px', '480px', '280px'],
   },
   row: {
     flexBox: true,
@@ -118,23 +111,26 @@ PaymentSection.defaultProps = {
     pl: '15px',
   },
   textArea: {
-    width: [1, 1, '45%', '45%', '45%'],
+    width: [1, 1, '40%', '42%', '45%'],
     zIndex: '1',
   },
   imageArea: {
-    width: [0, 0, '52%', '45%', '45%'],
+    width: [0, 0, '52%', '65%', '45%'],
     flexBox: true,
   },
   imageWrapper: {
     boxShadow: 'none',
   },
   imageWrapperOne: {
+    alignSelf: 'flex-start',
+    mt: ['0px', '0px', '0px', '-20px', '20px'],
+    ml: ['-250px', '-250px', '20px', '20px', '50px'],
     pointerEvents: 'none',
   },
   imageWrapperTwo: {
     alignSelf: 'flex-start',
-    mt: ['0px', '0px', '40px', '50px', '90px'],
-    ml: ['-250px', '-250px', '-180px', '-220px', '-420px'],
+    mt: ['0px', '0px', '40px', '24px', '24px'],
+    ml: ['-250px', '-250px', '-780px', '-780px', '-780px'],
     pointerEvents: 'none',
   },
   sectionSubTitle: {
@@ -144,7 +140,7 @@ PaymentSection.defaultProps = {
     fontSize: '14px',
     letterSpacing: '0.11em',
     fontWeight: '700',
-    color: '#1a73e8',
+    color: '#DB9A5D',
     textTransform: 'uppercase',
     mb: '10px',
   },
@@ -159,9 +155,9 @@ PaymentSection.defaultProps = {
   },
   description: {
     fontSize: '16px',
-    color: '#343d48cc',
+    color: '#343d48',
     lineHeight: '2.1',
-    mb: '33px',
+    mb: '120px',
     maxWidth: ['100%', '100%', '100%', '440px', '440px'],
     textAlign: ['center', 'left'],
   },

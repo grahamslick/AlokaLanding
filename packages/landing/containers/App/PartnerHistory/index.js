@@ -9,10 +9,10 @@ import Button from 'common/src/components/Button';
 import FeatureBlock from 'common/src/components/FeatureBlock';
 import Container from 'common/src/components/UI/Container';
 import PartnerHistoryWrapper, { CounterUpArea } from './partnerHistory.style';
-import GoogleImg from 'common/src/assets/image/app/google.svg';
-import AppleImg from 'common/src/assets/image/app/apple.svg';
-import DribbleImg from 'common/src/assets/image/app/dribbble.svg';
-import MailchimpImg from 'common/src/assets/image/app/mailchimp.svg';
+import MeditationImg from 'common/src/assets/image/app/program_meditation.svg';
+import YogaImg from 'common/src/assets/image/app/program_yoga.svg';
+import BreathworkImg from 'common/src/assets/image/app/program_breathwork.svg';
+import SelfcareImg from 'common/src/assets/image/app/program_selfcare.svg';
 import BackgroundImg from 'common/src/assets/image/app/partner-bg.png';
 
 const PartnerHistory = ({
@@ -26,7 +26,7 @@ const PartnerHistory = ({
   cardArea,
 }) => {
   return (
-    <PartnerHistoryWrapper id="partners">
+    <PartnerHistoryWrapper id="program">
       <Image
         src={BackgroundImg}
         className="backgroungImg"
@@ -35,30 +35,34 @@ const PartnerHistory = ({
       <Container>
         <Box className="row" {...row}>
           <Box className="col" {...col} style={{ flexDirection: 'column' }}>
-            <Text {...sectionSubTitle} />
+            <Text content="PROGRAM" {...sectionSubTitle} />
             <FeatureBlock
-              title={<Heading {...title} />}
-              description={<Text {...description} />}
-              button={<Button title="WORK HISTORY" {...btnStyle} />}
+              title={<Heading content="Develop your Routine" {...title} />}
+              description={
+                <Text
+                  content="Aloka combines Meditation, Yoga, Breathwork and Selfcare into a practice that you'll enjoy exploring and turning into a consistent routine. You have options, for instance there are many types of Yoga (Ashtanga, Iyengar, Hatha, Kundalini, Bhakti, Tai Chi, Qigong, Yin, Restorative, Chair Yoga, etc.) choose what resonates with you and build your personalized Aloka program."
+                  {...description}
+                />
+              }
             />
           </Box>
           <Box className="col" {...col} {...cardArea}>
             <CounterUpArea>
               <Card className="card" {...cardStyle}>
-                <Image src={GoogleImg} alt="Google Inc" />
-                <Text content="Google Inc" />
+                <Image src={MeditationImg} alt="Meditation" />
+                <Text content="Meditation" />
               </Card>
               <Card className="card" {...cardStyle}>
-                <Image src={AppleImg} alt="Apple Inc" />
-                <Text content="Apple" />
+                <Image src={YogaImg} alt="Yoga" />
+                <Text content="Yoga" />
               </Card>
               <Card className="card" {...cardStyle}>
-                <Image src={DribbleImg} alt="Dribble Inc" />
-                <Text content="Dribble" />
+                <Image src={BreathworkImg} alt="Breathwork" />
+                <Text content="Breathwork" />
               </Card>
               <Card className="card" {...cardStyle}>
-                <Image src={MailchimpImg} alt="MailChimp Inc" />
-                <Text content="MailChimp" />
+                <Image src={SelfcareImg} alt="Selfcare" />
+                <Text content="Selfcare" />
               </Card>
             </CounterUpArea>
           </Box>
@@ -78,62 +82,48 @@ PartnerHistory.propTypes = {
   cardStyle: PropTypes.object,
 };
 
-// Partner default style
 PartnerHistory.defaultProps = {
-  // Partner section row default style
   row: {
     flexBox: true,
     flexWrap: 'wrap',
     ml: '-15px',
     mr: '-15px',
   },
-  // Partner section col default style
   col: {
     pr: '15px',
     pl: '15px',
-    width: [1, 1 / 2, 1 / 2, 1 / 2, 1 / 2],
+    width: [1, 1, 1 / 2, 1 / 2, 1 / 2],
     flexBox: true,
     alignSelf: 'center',
   },
-  // Card default style
   cardStyle: {
     p: '53px 40px 35px',
     borderRadius: '10px',
     boxShadow: '0px 8px 20px 0px rgba(16, 66, 97, 0.07)',
   },
-  // Partner section title default style
   title: {
-    content: 'Your Trusted Partner For Working Together',
     fontSize: ['24px', '26px', '30px', '36px', '48px'],
     fontWeight: '300',
     color: '#0f2137',
     letterSpacing: '-0.010em',
     mb: '20px',
     maxWidth: ['100%', '100%', '100%', '490px', '490px'],
-    textAlign: ['center', 'left'],
   },
-  // Partner section description default style
   description: {
-    content:
-      'You can trust us for any kind of services and some of the world class companies have also trusted us .',
     fontSize: '16px',
-    color: '#343d48cc',
+    color: '#343d48',
     lineHeight: '2.1',
     mb: '33px',
-    textAlign: ['center', 'left'],
   },
   sectionSubTitle: {
-    content: 'TRUSTED PARTNERS',
     as: 'span',
     textAlign: 'left',
     fontSize: '14px',
     letterSpacing: '0.13em',
     fontWeight: '700',
-    color: '#1a73e8',
+    color: '#DB9A5D',
     mb: '10px',
-    textAlign: ['center', 'left'],
   },
-  // Button default style
   btnStyle: {
     minWidth: '156px',
     fontSize: '14px',
@@ -141,6 +131,9 @@ PartnerHistory.defaultProps = {
   },
   cardArea: {
     pl: [0, 0, '40px', 0, 0],
+  },
+  backgroungImg: {
+    marginTop: ['200px'],
   },
 };
 
