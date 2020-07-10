@@ -7,7 +7,7 @@ import BannerPattern from 'common/src/assets/image/app/pattern.png';
 
 const GlobalStyle = createGlobalStyle`
   body {
-    font-family: 'Poppins','Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
   }
 
   h1,
@@ -16,7 +16,7 @@ const GlobalStyle = createGlobalStyle`
   h4,
   h5,
   h6 {
-    font-family: 'Poppins','Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
   }
 
   section{
@@ -429,7 +429,7 @@ const AppWrapper = styled.div`
                   margin-bottom: 10px;
                   margin-top: 0px;
                   font-size: 14px;
-                  color: #DB9A5D;
+                  color: #db9a5d;
                   display: block;
                   font-weight: 700;
                   text-align: left;
@@ -449,7 +449,7 @@ const AppWrapper = styled.div`
                 .testimonialName {
                   font-size: 14px;
                   line-height: 33px;
-                  color: #DB9A5D;
+                  color: #db9a5d;
                   font-weight: 700;
                   padding-bottom: 10px;
                   margin-top: 0px;
@@ -866,7 +866,7 @@ const AppWrapper = styled.div`
 const BannerSquareShape = styled.div`
   width: 980px;
   height: 1110px;
-  background: #0F2137;
+  background: #0f2137;
   border-radius: 50px;
   -webkit-transform: rotate(105deg);
   -ms-transform: rotate(105deg);
@@ -922,8 +922,22 @@ const BannerCircleShape = styled.div`
 const PaymentCircleShape = styled.div`
   width: 500px;
   height: 500px;
-  
-  background-image: linear-gradient(to right bottom, #b87333, #c17d3f, #ca884c, #d29258, #db9d65, #dea068, #e0a36c, #e3a66f, #e1a26a, #df9f65, #dc9b60, #da985b);
+
+  background-image: linear-gradient(
+    to right bottom,
+    #b87333,
+    #c17d3f,
+    #ca884c,
+    #d29258,
+    #db9d65,
+    #dea068,
+    #e0a36c,
+    #e3a66f,
+    #e1a26a,
+    #df9f65,
+    #dc9b60,
+    #da985b
+  );
 
   border-radius: 50%;
   position: absolute;
