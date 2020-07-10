@@ -76,18 +76,17 @@ const TestimonialSection = ({ sectionWrapper }) => {
 
 TestimonialSection.propTypes = {
   sectionWrapper: PropTypes.object,
-  title: PropTypes.object,
 };
 
 TestimonialSection.defaultProps = {
   sectionWrapper: {
     as: 'section',
     pt: '0px',
-    pb: ['20px', '80px', '0px', '80px', '80px'],
+    pb: ['20px', '80px', '0px', '200px', '200px'],
   },
 
   sectionSubTitle: {
-    content: 'CLIENT TESTIMONIAL',
+    content: 'ABOUT',
     as: 'span',
     display: 'block',
     textAlign: ['center', 'left'],
