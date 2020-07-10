@@ -12,14 +12,14 @@ const data = {
       icon: 'flaticon-conversation',
       title: 'The Community',
       description:
-        ' You have the optional ability to connect, share, build relationships, guide and grow with a community of like-minded individuals on the app and in real-life. ',
+        ' You are able to connect, share, build relationships, guide and grow with a community of like-minded individuals on the app and in real-life. ',
     },
     {
       id: 3,
       icon: 'flaticon-atom',
       title: 'The Events',
       description:
-        ' We respect our customer opin Real-life and online events bring you deeper and tangible experiences, our Intro to Everything event is designed to demystify multiple modalities in a relaxed setting. ',
+        ' Real-life and online events bring you deeper and tangible experiences, our Intro to Everything event is designed to demystify multiple modalities in a relaxed setting. ',
     },
   ],
 };
