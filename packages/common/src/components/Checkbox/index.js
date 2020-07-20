@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import PropTypes from 'prop-types';
 import useToggle from '../useToggle';
 import CheckBoxStyle from './checkbox.style';
@@ -6,6 +6,7 @@ import CheckBoxStyle from './checkbox.style';
 const CheckBox = ({
   className,
   isChecked,
+  onChange,
   labelText,
   value,
   id,
@@ -17,6 +18,10 @@ const CheckBox = ({
 }) => {
   // use toggle hooks
   const [toggleValue, toggleHandler] = useToggle(isChecked);
+
+  useEffect(() => {
+    onChange(toggleValue);
+  }, [toggleValue]);
 
   // Add all classs to an array
   const addAllClasses = ['reusecore__checkbox'];
@@ -86,6 +91,8 @@ CheckBox.propTypes = {
 
   /** Checkbox toggle state based on isChecked prop */
   isChecked: PropTypes.bool,
+
+  onChange: PropTypes.func,
 
   /** disabled of the checkbox field */
   disabled: PropTypes.bool,
