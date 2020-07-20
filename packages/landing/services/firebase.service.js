@@ -1,4 +1,5 @@
-import firebase from 'firebase';
+import firebase from 'firebase/app';
+import 'firebase/firestore';
 
 const config = {
   apiKey: 'AIzaSyBkSwE8TY5ZOqvuIbycFPfmUg2ET3FXFqg',
@@ -11,6 +12,11 @@ const config = {
   measurementId: 'G-5SRM3XVRVY',
 };
 
-firebase.initializeApp(config);
+let fbApp = null;
+if (!firebase.apps.length) {
+  fbApp = firebase.initializeApp(config);
+}
 
 export const fsdb = firebase.firestore();
+
+export default fbApp;
